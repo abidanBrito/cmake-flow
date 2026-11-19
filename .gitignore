@@ -1,0 +1,6 @@
+# Build artifacts
+/elisp-package-template-autoloads.el
+*.elc
+
+# Local package directory (dev & test dependencies)
+/.local-elpa/
