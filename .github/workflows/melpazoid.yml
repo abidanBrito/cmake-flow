@@ -26,7 +26,7 @@ jobs:
       - name: Run melpazoid
         env:
           LOCAL_REPO: ${{ github.workspace }}
-          RECIPE: (elisp-package-template :fetcher github :repo "abidanBrito/elisp-package-template")
+          RECIPE: (cmake-flow :fetcher github :repo "abidanBrito/cmake-flow")
           EXIST_OK: true
           WARN_IS_ERROR: false
         run: make -C ~/melpazoid

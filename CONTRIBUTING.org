@@ -1,7 +1,7 @@
-#+title: Contributing to elisp-package-template
+#+title: Contributing to cmake-flow
 #+author: Abidán Brito
 
-This document describes how to contribute to =elisp-package-template= and what is expected of a change before it can be merged. Please read it before opening an issue or a pull request.
+This document describes how to contribute to =cmake-flow= and what is expected of a change before it can be merged. Please read it before opening an issue or a pull request.
 
 * TLDR
 
@@ -39,8 +39,8 @@ You will need GNU Emacs 27.1 or newer, [[https://github.com/casey/just][just]], 
 Clone your fork and create a branch off =main=. Prefix the branch with its type, e.g. =feature/=, =fix/= or =docs/=:
 
 #+begin_src sh
-  git clone https://github.com/abidanBrito/elisp-package-template.git
-  cd elisp-package-template
+  git clone https://github.com/abidanBrito/cmake-flow.git
+  cd cmake-flow
   git checkout -b feature/my-change
 #+end_src
 
@@ -69,7 +69,7 @@ Installing the =pre-commit= hooks wires both the commit-time and push-time check
 
 - Whenever possible, follow the conventions already present in the codebase.
 - Keep the implementation small and straightforward.
-- Public symbols are prefixed with =elisp-package-template-= and internal ones with =elisp-package-template--=.
+- Public symbols are prefixed with =cmake-flow-= and internal ones with =cmake-flow--=.
 - All files use =lexical-binding=.
 
 * Testing
@@ -86,4 +86,4 @@ Add or update tests under =test/= for any behaviour you change, and run =just te
 *Note:* =main= should be protected so all changes land through a reviewed pull request. If you instantiated this template, enable it under Settings → Branches (or with a ruleset). Fill in the template and tick the checklist honestly.
 #+end_quote
 
-Thanks for contributing to =elisp-package-template=!
+Thanks for contributing to =cmake-flow=!

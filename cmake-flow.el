@@ -1,4 +1,4 @@
-;;; elisp-package-template.el --- Short package description -*- lexical-binding: t; -*-
+;;; cmake-flow.el --- Short package description -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2026 Abidán Brito
 
@@ -6,7 +6,7 @@
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "27.1"))
 ;; Keywords: tools
-;; URL: https://github.com/abidanBrito/elisp-package-template
+;; URL: https://github.com/abidanBrito/cmake-flow
 ;; SPDX-License-Identifier: MIT
 
 ;;; Commentary:
@@ -22,20 +22,20 @@
 
 ;;; Code:
 
-(defgroup elisp-package-template nil
+(defgroup cmake-flow nil
   "Short package description."
   :group 'tools
-  :prefix "elisp-package-template-")
+  :prefix "cmake-flow-")
 
 ;; TODO: add your package's options here with `defcustom'.
 
 ;;;###autoload
-(define-minor-mode elisp-package-template-mode
-  "Toggle `elisp-package-template-mode'."
+(define-minor-mode cmake-flow-mode
+  "Toggle `cmake-flow-mode'."
   :global t
-  (if elisp-package-template-mode
-      (message "elisp-package-template enabled")
-    (message "elisp-package-template disabled")))
+  (if cmake-flow-mode
+      (message "cmake-flow enabled")
+    (message "cmake-flow disabled")))
 
-(provide 'elisp-package-template)
-;;; elisp-package-template.el ends here
+(provide 'cmake-flow)
+;;; cmake-flow.el ends here
